@@ -1,0 +1,95 @@
+body{
+    background: #f4f4f4;
+}
+
+
+/*ID SIDEBAR*/
+#sidebar{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5b0073+0,28003e+100 */
+  background: #5b0073; /* Old browsers */
+  background: -moz-linear-gradient(left,  #5b0073 0%, #28003e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #5b0073 0%,#28003e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #5b0073 0%,#28003e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b0073', endColorstr='#28003e',GradientType=1 ); /* IE6-9 */
+
+
+
+
+
+    min-width: 250px;
+    max-width: 250px;
+  
+    color: #fff;  
+    position: fixed;
+    float: right;
+    height: 100%;
+    padding-top: 2%;
+  }
+
+  /*
+  #sidebar .sidebar-header {
+    padding: 10px;
+    background: #28003e;
+    
+    
+  }
+
+  /*ESTILO DA LISTA
+  #sidebar ul li a {
+    color: inherit;
+    padding: 10px;
+    font-size: 1.1em;
+
+  }
+  */
+
+  ul{
+      list-style-type: none;
+  }
+
+  #sidebar ul li a list {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+
+  }
+
+  #sidebar ul li a text {
+    color: #fff;
+    padding: 5%;
+    display: block;
+    text-align: justify;
+
+  }
+
+
+
+  
+
+  /*SIDEBAR PIC*/
+  .sidebar-pic-img{
+    border: 2px solid #fff;
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 170px;
+    width: 170px;
+    margin-left: auto;
+      margin-right: auto;
+      display: block;
+    
+  }
+
+  /*INTERESSES*/
+  .sidebar-interest{
+    height: 40px;
+    width: 40px;
+   
+    
+    /*Cores usadas
+    rosa: #e60066
+    roxo claro: #5b0073
+    roxo escuro: #28003e
+    laranja: #f55205
+*/
+  }
